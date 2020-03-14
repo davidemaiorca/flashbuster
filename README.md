@@ -3,7 +3,7 @@ FlashBuster V. 1.0
 FlashBuster is an automatic, static analyzer for SWF files. Given an ensemble of SWF files, the system produces a .libsvm file that can be used on
 machine learning-based classifiers for classification.
 
-The system is based on a modified version of the JPEXS library (https://github.com/jindrapetrik/jpexs-decompiler)
+The system is based on a modified version of the JPEXS library and has been released under the GNU GPL V3 License (see the License file and see https://github.com/jindrapetrik/jpexs-decompiler)
 
 The system is composed of three modules:
 
