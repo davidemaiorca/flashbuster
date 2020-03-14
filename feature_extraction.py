@@ -1,28 +1,13 @@
 '''
-Created on 14/feb/2020
+Created on 14/mar/2020
 
 @author: Davide Maiorca
 davide.maiorca@unica.it
 
 Flash Buster - A system to detect malicious SWF Files
 
-In order to analyze an swf file:
-
-- There must be a path that contains malicious and benign swf files. To do so, create a folder (e.g., "samples") and
-create two subfolders with MANDATORY names: "Malicious" and "Benign". Inside one of these two folders, you have to put
-the swf file to analyze (e.g., test.swf). The "samples" path must be assigned to the samples_path variable.
-
-- You need to store the output of the FFDec Extraction in a folder that will be assigned to the output_path variable.
-The output must be stored in this way. 
-
-For a file called test.swf:
-1) Create a folder called, for example, "outputs". Inside this folder, there must be two subfolders called (MANDATORY):
-"Malicious" and "Benign". Inside each of this folder, there must be two subfolders (MANDATORY) called "script" and "dump".
-2) The folder "script" MUST contain a subfolder with the same name of the swf file (in our case: test.swf). Such subfolder
-will cont
-ain all the bytecode-based scripts extracted by FFDEC
-3) The folder "dump" must contain a .dump file with the same name of the swf file. Hence, in our example, test.swf.dump
-Obviously, the FFDEC must be stored under the Malicious or Benign folder, depending on the type of the sample. 
+To use the feature extractor, ensure to have previously run the data_extraction.py file, that the paths.txt file is included and that
+the real files currently exist. 
 
 '''
 
