@@ -3,7 +3,7 @@ Created on 25/02/2020
 
 @author Davide Maiorca
 
-Counts the occurrence 
+Counts the occurrence of content-based features
 @author: Davide
 '''
 import re
