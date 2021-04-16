@@ -156,7 +156,7 @@ class DumpAnalyzer(object):
 
 if __name__ == '__main__':
     analyzer = DumpAnalyzer()
-    analyzer.create_occurrences('/home/dmaiorca/Documenti/shared_vm/flash/flashbuster/src/data_analysis/outputs/dumps/965e91c46b76c47537009c72e1ececd052d246de43f2943751cbb4d77763320f.dump')
+    analyzer.create_occurrences('example.dump')
     analyzer.print_occurrences()
     #analyzer.write_occurrences(out)
     inp.close()
